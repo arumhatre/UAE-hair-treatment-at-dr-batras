@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #383838;
+}
+
+
+p{
+  font-size: 16px;
+  color: #414042;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+header {
+    background: #b99863;
+    min-height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        background: #4c4c4c;
+        min-height: 85px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+
+.main-all-heading {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 26px;
+    color: #cba574;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.golden-heading {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.golden-box {
+    padding: 8px 30px 8px 15px;
+    display: inline-flex;
+    position: relative;
+    background: linear-gradient(136deg, rgba(185, 152, 99, 1) 0%, rgba(224, 205, 152, 1) 25%, rgba(248, 237, 184, 1) 50%, rgb(230 214 165) 75%, rgb(208 184 134) 100%);
+}
+
+.golden-box::before {
+    position: absolute;
+    content: '';
+    height: 24px;
+    width: 100%;
+    bottom: -24px;
+    left: 0;
+    background: url(../images/strip-shadow.webp) left top no-repeat;
+    background-size: contain;
+     transform: scaleX(-1);
+}
+
+
+@media (max-width:768px){
+   .golden-heading {
+    font-size: 21px;
+    margin-bottom: 0;
+}
+
+}
+
+/*==========================================*/
+/* Before After Images Slider css*/
+/*==========================================*/
+.owl-carousel{z-index:0}
+.screenshot_slider .owl-item .item{transform:translate3d(0,0,0);padding-bottom:20px;padding-top:30px}
+.screenshot_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.6);-ms-transform:scale(.6);transform:scale(.6);opacity:.4}
+.screenshot_slider .owl-item.center .item img{-webkit-transform:scale(1.25);-ms-transform:scale(1.25);transform:scale(1.25);opacity:1}
+@media (max-width:1024px){
+.screenshot_slider .owl-item.center .item img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);opacity:1}
+}
+@media (max-width:768px){
+.screenshot_slider .owl-item.center .item img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);opacity:1}
+}
+.screenshot_slider .owl-nav{text-align:right;top:-52px;position:absolute;right:30px}
+.screenshot_slider .owl-nav button{font-size:30px!important;margin:0 7px;color:#000!important}
+@media (max-width:1024px){
+.owl-item .item{transform:translate3d(0,0,0);padding:30px 30px 20px}
+.screenshot_slider .owl-nav{text-align:center!important;margin-top:0px;top:0;right:0;position:relative}
+.screenshot_slider .owl-nav button{font-size:30px!important;margin:0 7px;color:#000!important}
+}
+
+.screenshot_slider .owl-dots{
+  display: none;
+}
+
+
+/*===================================================*/
+/*  Treatment Section List */
+/*===================================================*/
+
+.treatment-section-list{
+  padding-top: 20px;
+  list-style-image: url('../images/list-style-01.webp');
+    margin-left: 0;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
+
+.treatment-section-list li{
+   font-size: 16px;
+   margin-bottom: 10px;
+   padding-left: 5px;
+}
+
+.treatment-section-list li b{
+  font-weight: 500;
+}
+
+.list-arrow-head{
+    padding-top: 15px;
+    line-height: 10px;
+    font-weight: 600;
+    color: #cba574;
+}
+
+.list-main-xogen-head{
+  color: #343a40;
+  font-size: 21px;
+  margin-bottom: 3px;
+}
+
+
+.key_icon_box{margin-top:15px}
+.key_icon_box img{width:50px;height:50px}
+.key_icon_box p{margin-left:0;margin-bottom:0;display:flex; color: #343a40;
+    font-size: 21px;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.key_icon_box p span{margin:auto 5px auto 12px;color:#212121}
+
+
+
+
+
+@media (max-width:600px){
+  .list-main-xogen-head{
+  color: #343a40;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+}
+
+/*===================================================*/
+/*What Makes Us Different*/
+/*===================================================*/
+
+
+#upsc-list-item-ch ul{
+    padding-inline-start: 0px !important;
+    margin-bottom: 0 !important;
+}
+
+#upsc-list-item-ch ul li{
+  display: ruby;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#upsc-list-item-ch p{
+  padding-top: 7px;
+}
+
+
+
+/*===================================================*/
+/*Treatment Tabs*/
+/*===================================================*/
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+}
+
+.hair-tabs .nav-item:first-child{
+  padding-left: 0;
+}
+
+.hair-tabs .nav-item{position: relative;
+  padding: 0 30px;
+}
+
+
+.hair-tabs .nav-item:after{position: absolute; left: 5px; bottom: -30px; content: ''; width: 100%; background: url(../images/border-bottom-non.webp) center bottom no-repeat; height: 18px; opacity: 0.5;}
+.hair-tabs .nav-item .active:after{position: absolute; left: 5px; bottom: -30px; content: ''; width: 100%; background: url(../images/border-bottom.webp) center bottom no-repeat; height: 18px; opacity: 1;}
+.hair-tabs .nav-item + .nav-item  {
+        border-left: 2px solid #717272;
+    }
+
+
+.list-tab-sub-heading{
+  font-size: 21px;
+  color: #cba574;
+  margin-bottom: 0;
+}
+
+.list-style-custom{
+  padding-inline-start: 0px;
+  padding-bottom: 10px;
+}
+
+
+.list-style-custom li {
+    display: table-cell;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+.list-style-custom li:first-child{
+  width: 8.5%;
+}
+
+
+
+
+
+
+.list-style-custom li p{
+  margin-bottom: 0;
+}
+
+/*.list-style-custom li:nth-child(1){
+  list-style-image: url('../images/list-01.webp');
+}
+
+.list-style-custom li:nth-child(2) {
+  list-style-image: url('../images/list-02.webp');
+}
+
+.list-style-custom li:nth-child(3) {
+  list-style-image: url('../images/list-03.webp');
+}
+
+.list-style-custom li:nth-child(4) {
+  list-style-image: url('../images/list-04.webp');
+}
+*/
+
+@media (max-width:1024px){
+  .hair-tabs .nav-item {
+    position: relative;
+    padding: 0 15px;
+}
+
+}
+
+
+@media (max-width:600px){
+
+     .hair-tabs .nav-item{
+      padding:  0;
+      width: 100%;
+      text-align: center;
+      background:   #fff;
+      border:  1px solid #717272;
+      margin-bottom:  5px;
+    }
+
+   .hair-tabs .nav-item .active{
+    width: 100%;
+    border-radius:  0;
+    background: linear-gradient(136deg, rgba(185, 152, 99, 1) 0%, rgba(224, 205, 152, 1) 25%, rgba(248, 237, 184, 1) 50%, rgb(230 214 165) 75%, rgb(208 184 134) 100%);
+   }
+ 
+   .hair-tabs .nav-item:after{
+    background:   transparent ;
+   }
+   
+   .hair-tabs .nav-item .active:after{
+    background:  transparent ;
+   }
+
+  .hair-tabs .nav-item + .nav-item  {
+     border-left:  1px solid #717272;
+    }
+
+  .list-style-custom li:first-child{
+    width: 12%;
+  }
+
+}
+
+
+
+/*===================================================*/
+/*What Makes Us Different*/
+/*===================================================*/
+
+
+.why-homeopathy-list{
+    list-style-image: url('../images/list-style.webp');
+    margin-left: 0;
+    padding-left: 22px;
+    margin-bottom: 0;
+}
+
+.why-homeopathy-list li{
+   font-size: 16px;
+   margin-bottom: 10px;
+   padding-left: 5px;
+}
+
+.why-homeopathy-list li::marker{
+    font-size: 10px;
+}
+
+.why-homeopathy-list li:last-child{
+  margin-bottom: 0;
+}
+
+
+
+/*===================================================*/
+/* Dr. batras para css */
+/*===================================================*/
+
+.homeopathic-bg-sec {
+    background-image: url(../images/homeopathic-bg.webp);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+.homeopathic-bg-sec p{
+  margin-bottom:  15px;
+}
+
+
+/*===================================================*/
+/* AI LED */
+/*===================================================*/
+
+.heading-led-heading{
+  font-size: 21px;
+  color: #343a40;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.ai-led-icon-cls{
+  border: 10px solid #fff;
+  border-radius: 50%;
+  width: 80px;
+}
+
+.ai-led-icon-cls img{
+  border-radius: 50%;
+   box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+
+.golden-box-ai-led {
+    padding: 0px;
+    background: linear-gradient(136deg, rgba(185, 152, 99, 1) 0%, rgba(224, 205, 152, 1) 25%, rgba(248, 237, 184, 1) 50%, rgb(230 214 165) 75%, rgb(208 184 134) 100%);
+    background-clip: padding-box;
+/*    border: solid 3px #fff;*/
+    border-radius: 5em;
+    display: flex;
+}
+
+
+@media (max-width:600px){
+
+  .golden-box-ai-led{
+    padding: 10px 0;
+  }
+  .ai-led-icon-cls{
+  border: none;
+}
+
+.heading-led-heading{
+  font-size: 18px;
+  color: #343a40;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.ai-led-icon-cls img
+{
+  margin-left:  -10px;
+}
+
+}
