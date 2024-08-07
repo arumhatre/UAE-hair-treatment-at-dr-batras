@@ -6,7 +6,7 @@ header{background:#b99863;min-height:60px;display:-webkit-box;display:-ms-flexbo
 header{background:#4c4c4c;min-height:85px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 }
 ul{display:block;list-style-type:disc;margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0;padding-inline-start:0px;unicode-bidi:isolate}
-.main-all-heading{font-family:Roboto,sans-serif!important;font-size:26px;color:#cba574;text-transform:capitalize;font-weight:500;margin-bottom:5px}
+.main-all-heading{font-family:Roboto,sans-serif!important;font-size:26px;color:#cba574;font-weight:500;margin-bottom:5px}
 .golden-heading{font-size:24px;margin-bottom:0}
 .golden-box{padding:8px 30px 8px 15px;display:inline-flex;position:relative;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
 .golden-box::before{position:absolute;content:'';height:24px;width:100%;bottom:-24px;left:0;background:url(../images/strip-shadow.webp) left top no-repeat;background-size:contain;transform:scaleX(-1)}
